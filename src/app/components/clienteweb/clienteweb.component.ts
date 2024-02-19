@@ -13,7 +13,6 @@ export class ClientewebComponent {
     
   }
   obtenerInfo() {
-    console.log("Obteniendo info...");
     this.cws.getMovies()?.subscribe((resultado) => {
       console.log(resultado);
     })
